@@ -1,0 +1,65 @@
+---employee data inserts---
+---select * from employee;---
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1319, '5L', 'Nanete Screaton', 'Social Worker', '2017-06-19', 532245.69);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1641, '5A', 'Mahalia Zanotti', 'Marketing Assistant', '2018-06-17', 126798.05);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1587, '9Z', 'Linea Charker', 'VP Marketing', '2019-02-25', 145929.66);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1111, '1I', 'Jeri Stockdale', 'Research Nurse', '2021-01-31', 256018.72);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1709, '2G', 'Eolanda Fruchon', 'Account Coordinator', '2020-02-25', 893254.7);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1491, '8W', 'Innis Bollum', 'Technical Writer', '2019-04-26', 970947.55);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1317, '6E', 'Elisha Casale', 'Teacher', '2017-12-30', 655988.82);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1303, '4M', 'William Bohills', 'Senior Editor', '2018-05-12', 557810.17);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1747, '0X', 'Lizzy Perello', 'Quality Control Specialist', '2019-12-06', 291083.9);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1120, '4M', 'Fionnula Andries', 'Recruiter', '2018-01-31', 704893.06);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1720, '6V', 'Barb O''Logan', 'Research Associate', '2019-08-14', 518534.12);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1703, '3V', 'Lyndel Neale', 'Associate Professor', '2020-01-20', 716833.94);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1657, '9U', 'Marris Currom', 'Information Systems Manager', '2019-11-07', 336639.07);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1822, '1R', 'Mureil Dudbridge', 'Pharmacist', '2017-07-08', 993730.21);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1157, '3V', 'Giffie Reijmers', 'Human Resources Manager', '2019-12-09', 892109.14);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1919, '2O', 'Rea McKeevers', 'Financial Analyst', '2019-05-02', 193883.2);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1855, '5J', 'Tommy Sleath', 'Geologist III', '2020-01-27', 839540.88);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1068, '9J', 'Ashleigh Dalley', 'Assistant Professor', '2017-12-20', 526209.67);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1406, '0K', 'Lenette Morando', 'Engineer IV', '2020-10-26', 649506.5);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1370, '9J', 'Dalila Symons', 'Legal Assistant', '2018-03-17', 701948.35);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1926, '2B', 'Lauren McAuslene', 'Research Assistant II', '2019-11-08', 432659.73);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1586, '7J', 'Goober Pitsall', 'Assistant Media Planner', '2020-09-16', 135033.85);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1002, '0Y', 'Rancell Bricksey', 'Systems Administrator III', '2021-01-28', 814467.39);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1768, '8Q', 'Doralyn Canto', 'Automation Specialist II', '2019-01-30', 262341.37);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1037, '3A', 'Emmie Sheaber', 'Operator', '2020-03-27', 882060.32);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1504, '0C', 'Hugues Girardin', 'Geologist II', '2019-03-22', 518588.66);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1414, '6W', 'Cobby Tarplee', 'Staff Accountant IV', '2020-10-11', 353883.28);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1751, '2M', 'Teresina Francklin', 'Sales Associate', '2020-02-12', 243282.22);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1154, '0J', 'See Lehrer', 'Health Coach I', '2018-04-07', 415191.0);
+insert into employee (empno, deptcode, name, job, hiredate, salary) values (1072, '2T', 'Henryetta Thibodeaux', 'Legal Assistant', '2021-01-25', 292564.12);
+
+---department data inserts---
+---select * from department;---
+insert into department (deptcode, deptlocation) values ('5L', '38135 MARKET SQ ');
+insert into department (deptcode, deptlocation) values ('5A', 'FORT BELVOIR COMMUNITY HOSPITAL 9300 DEWITT LOOP');
+insert into department (deptcode, deptlocation) values ('9Z', '2110 HIGDON FERRY RD STE D ');
+insert into department (deptcode, deptlocation) values ('1I', '92 HIGHLAND ST ');
+insert into department (deptcode, deptlocation) values ('2G', '648 INDEPENDENCE PKWY SUITE 300');
+insert into department (deptcode, deptlocation) values ('8W', '411 AIRPORT RD ');
+insert into department (deptcode, deptlocation) values ('6E', '1000 S BECKHAM AVE ');
+insert into department (deptcode, deptlocation) values ('4M', '1 HURLEY PLZ ');
+insert into department (deptcode, deptlocation) values ('0X', '2521 STOCKTON BLVD ');
+insert into department (deptcode, deptlocation) values ('5M', 'PO BOX 206 ');
+insert into department (deptcode, deptlocation) values ('6V', 'PO BOX 826594 ');
+insert into department (deptcode, deptlocation) values ('3V', '900 WASHINGTON RD ATTN MCUD-RMD-UBO');
+insert into department (deptcode, deptlocation) values ('9U', '321 MULBERRY ST SW MEDICAL STAFF SERVICES');
+insert into department (deptcode, deptlocation) values ('1R', '2677 FOREST HILL BLVD STE 109 ');
+insert into department (deptcode, deptlocation) values ('5V', '3550 TERRACE ST SCAIFE HALL, ROOM A711');
+insert into department (deptcode, deptlocation) values ('2O', '4701 BRYANT IRVIN RD N STE LL215');
+insert into department (deptcode, deptlocation) values ('5J', '1200 W 22ND ST ');
+insert into department (deptcode, deptlocation) values ('8J', '1800 TOWN CENTER DR SUITE 315B');
+insert into department (deptcode, deptlocation) values ('0K', '410 CHILDS STREET ');
+insert into department (deptcode, deptlocation) values ('9J', '2500 MARYLAND RD STE 400 ');
+insert into department (deptcode, deptlocation) values ('2B', '915 HIGHLAND BLVD STE 2170 ');
+insert into department (deptcode, deptlocation) values ('7J', 'PO BOX 67000 DEPARTMENT 272801');
+insert into department (deptcode, deptlocation) values ('0Y', '3550 W WATERS AVE SUITE 108');
+insert into department (deptcode, deptlocation) values ('8Q', '10996 FOUR SEASONS PL STE 100A ');
+insert into department (deptcode, deptlocation) values ('3A', 'PO BOX 327 ');
+insert into department (deptcode, deptlocation) values ('0C', '209 HOSPITAL DR SUITE 304');
+insert into department (deptcode, deptlocation) values ('6W', 'PO BOX 845347 ');
+insert into department (deptcode, deptlocation) values ('2M', '110 S 17TH ST ');
+insert into department (deptcode, deptlocation) values ('0J', '66 N 6TH ST ');
+insert into department (deptcode, deptlocation) values ('2T', '77 WARREN ST PHCY DEPT');
